@@ -1,10 +1,10 @@
 ---
 layout: list
-title: DEVLOG
-slug: devlog
+title: JAVASCRIPT
+slug: js
 menu: true
 submenu: true
 order: 3
 description: >
-  개발 일지.
+  Javascript 함수 정리 및 스터디
 ---

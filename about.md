@@ -9,24 +9,27 @@ title: ABOUT
 menu: true
 order: 1
 ---
-## About
-**효율적**으로 **효과적**으로 일 하고자 한다.
+## Goal
+코드는 쓰여질 수록 **편리**해져야 한다.
 
-짧은 시간을 **효율적**으로 투자한 비용을 **효과적**으로!
+**새로운 기술**을 도입하는 것에 게을러 지지 말자.
 
 ## Project
 
-* **web** : 블록 코딩으로 코딩을 배우는 플랫폼 개발 중(angular, nodejs, mongoDB)
-* **app** : 비콘, 지도 기반, 맛집 + 실시간 채팅 하이브리앱 개발(손님용, 사장님용)(android, ios)
-* **web** : 작가, 독자, 광고주 참여형 웹툰플랫폼 개발(javascript, spring)
-* **web** : 비교적 심플한 반응형 홈페이지 등
+* **밥정너 android/ios app** : 랜덤 선택 기반 음식점 쿠폰 어플 (Publishing)
+* **혼행 web app** : 동행 찾기 커뮤니티 (Full-Stack)
+* **혼행 android/ios app** : 동행 찾기 커뮤니티 (Full-Stack)
 
-## Why
-**왜 프론트엔드인가?**
-
-프론트엔드 개발자는 기본적으로 시각적인 디자인 요소인 웹디자인과 이공계적 마인드인 프로그래밍이 모두 가능한 개발자만 할 수 있는 그리고 누구나 할 수 있다지만 누구나 하면 안되는 이상한 직군.
-{:.lead}
+## tech
+- **react**
+- **react-rative**
+- firebase
+- SASS
+- styled-components
+- jquery
 
 
 ## Road Map
+프론트엔드 개발에 대한 정리가 잘되어 있어 공유합니다.
+
 [Web Developer Road Map](https://github.com/kamranahmedse/developer-roadmap) 
