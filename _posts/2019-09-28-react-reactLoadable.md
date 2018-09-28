@@ -17,7 +17,7 @@ date: 2018-09-28
 대부분의 React 앱은 Webpack 이나 Browserify 와 같은 도구를 사용하여 "번들된"파일을 갖게 됩니다. <br>
 단일 파일들을 병합하여 한번에 전체 앱을 로드하기 때문입니다.<br><br>
 
-![image](/assets/img/post/reactLoadable/1.jpg){:.lead}
+![image](/assets/img/post/reactLoadable/1.png){:.lead}
 (크롬 개발자도구의 network 탭에서 bundle.js를 확인할 수 있어요.)
 
 하지만 앱이 커지면 번들링 된 앱은 굉장히 무거워지기 때문에 Code Splitting 과정을 거쳐 앱을 로드시키는데 너무 많은 시간이 걸리게 하는걸 방지 할 수 있어요!
@@ -75,14 +75,14 @@ const App = () => (
   </Router>
 );
 ```
-![image](/assets/img/post/reactLoadable/2.jpg){:.lead}
+![image](/assets/img/post/reactLoadable/2.png){:.lead}
 (Code Spiltting을 통해 0.chunk.js가 생긴 것을 볼수 있습니다.)
 
 ## Issue
 
 그러나 중요한것은 규모가 어느정도 되는 앱이라는 전제 조건에서 사용하는 것이 효율적이라는 점입니다.
 
-![image](/assets/img/post/reactLoadable/3.jpg){:.lead}
+![image](/assets/img/post/reactLoadable/3.png){:.lead}
 
 react-loadable을 적용한 것과 적용하지 않은 CPA(create-react-app)을 비교해보면 번들되는 파일이 더 많아지는 것을 확인할 수 있습니다.
 <br>

@@ -13,7 +13,7 @@ Window에서 Jekyll CP949 에러 해결 방법
 
 ## 윈도우에서 지킬 serve 시 발생하는 CP949 에러!
 
-![image](/assets/img/post/jekyll-serveError/1.jpg){:.lead}
+![image](/assets/img/post/jekyll-serveError/1.png){:.lead}
 
 지킬에 서버를 가동할 시 자주 발생하는 에러코드입니다.
 
@@ -25,10 +25,10 @@ Window에서 Jekyll CP949 에러 해결 방법
 >chcp 65001
 {:.lead}
 
-![image](/assets/img/post/jekyll-serveError/2.jpg){:.lead}
-![image](/assets/img/post/jekyll-serveError/3.jpg){:.lead}
+![image](/assets/img/post/jekyll-serveError/2.png){:.lead}
+![image](/assets/img/post/jekyll-serveError/3.png){:.lead}
 
 이렇게 65001 언어셋을 설정하고 서버를 가동하면 잘 작동됩니다!
 
 
-[Jekyll 문서(Windows))](https://github.com/juthilo/run-jekyll-on-windows){:target="_blank"} 여기에 Ruby2.0 기준으로 잘 설명한 git이 있어서 링크 남깁니다.
+[Jekyll 문서(Windows)](https://github.com/juthilo/run-jekyll-on-windows){:target="_blank"} Ruby2.0 기준으로 잘 설명한 git이 있어서 링크 남깁니다.
