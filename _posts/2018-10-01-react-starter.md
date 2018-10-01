@@ -4,7 +4,7 @@ comments: true
 title: '[REACT] Firebase를 탑재한 React Starter Kit - 01'
 categories: [react]
 tags: [react]
-date: 2019-10-01
+date: 2018-10-01
 ---
 
 ![headerimg](/assets/img/subcate/react.gif)
@@ -68,13 +68,14 @@ package의 type을 알 수 없다고 나오면 @types/를 붙여 package의 type
 
 ![image](/assets/img/post/react-starter/2.png){:.lead}
 
+먼저 React-router-v4를 이용해 Main, sub페이지를 구현하고 로그인을 위한 Signin페이지를 넣었습니다.
+<br>
+Hoc를 이용하여 처음 어플리케이션이 Initialize될때 유저 정보를 받아 올 수 있도록 하고(withAuth), 앱 전체에 styled-components의 theme을 사용할 수 있도록 하였습니다.(withStyle)
+<br>
+그리고 데이터는 redux의 store에서 일괄 관리합니다.
 <br><br>
 
-
+세부적인 코드 작성은 [REACT] Firebase를 탑재한 React Starter Kit - 02에 소개하겠습니다.
 <br>
-
-```javascript
-
-```
 
 
