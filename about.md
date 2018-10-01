@@ -16,17 +16,9 @@ order: 1
 
 ## Project
 
-* **밥정너 android/ios app** : 랜덤 선택 기반 음식점 쿠폰 어플 (Publishing)
-* **혼행 web app** : 동행 찾기 커뮤니티 (Full-Stack)
-* **혼행 android/ios app** : 동행 찾기 커뮤니티 (Full-Stack)
-
-## tech
-- **react**
-- **react-rative**
-- firebase
-- SASS
-- styled-components
-- jquery
+* [**밥정너 ANDROID/IOS APP**](https://play.google.com/store/apps/details?id=com.bapjeongneo&hl=en_GB) : 랜덤 선택 기반 음식점 쿠폰 어플 (Publishing)
+* [**혼행 WEB APP**](https://honhang.me)  : 동행 찾기 커뮤니티 (Full-Stack)
+* [**혼행 ANDROID/IOS APP**](https://play.google.com/store/apps/details?id=com.midnightplan.honhang) : 동행 찾기 커뮤니티 (Full-Stack)
 
 
 ## Road Map
