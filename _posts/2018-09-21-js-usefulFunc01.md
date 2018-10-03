@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: '[JS] javaScript - 유용한 Functions 1'
+title: '[JS] javaScript - 유용한 Snippet 1'
 categories: [js]
 tags: [javascript]
 date: 2018-09-21
@@ -10,7 +10,7 @@ date: 2018-09-21
 `javaScript`를 사용하며 만들어본 유요한 함수들을 정리합니다.
 {:.center}
 
-## FUNCTIONS
+## Snippet
 
 
 <br>
