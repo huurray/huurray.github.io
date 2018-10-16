@@ -66,6 +66,24 @@ Jquery를 사용하였고 maxRows만 지정해 사용한다.
 
     console.log(sliceArray(arr, 2));
 ~~~
-each수에 따라 배열을 쪼개고 나머지는 마지막 인덱스로 삽입
+each수에 따라 배열을 쪼개고 나머지는 마지막 인덱스로 삽입한다.
+
+
+<br>
+**3. 글 생략해서 보여주기**
+~~~javascript
+function ellipsis(text: string, maxLength: number) {
+  const textArr = text.split('\n');
+  if (textArr.length >= 2) {
+    return textArr[0].length > maxLength
+      ? `${textArr[0].slice(0, maxLength)}...`
+      : textArr[1].length > maxLength
+        ? `${textArr[0]}\n${textArr[1].slice(0, maxLength)}...`
+        : `${textArr[0]}\n${textArr[1]}`;
+  }
+  return text.length <= maxLength ? text : `${text.slice(0, maxLength)}...`;
+}
+~~~
+2줄이상 또는 text가 maxLength를 넘으면 ...으로 표현한다.
 
 
