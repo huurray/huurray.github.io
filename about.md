@@ -22,6 +22,9 @@ order: 1
 * [**혼행 랜딩페이지 WEB APP**](https://honhang.me) : 동행 찾기 커뮤니티 (Full-Stack)
 * [**어브로드코리아 WEB APP**](https://abroadkorea.com) : 해외 한인 커뮤니티 모음 (Full-Stack)
 
+## Use
+
+**React.js / React Native / Node.js / MongoDB / Firebase / Styled-Components**
 
 ## Road Map
 프론트엔드 개발에 대한 정리가 잘되어 있어 공유합니다.
