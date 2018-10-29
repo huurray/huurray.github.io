@@ -19,7 +19,7 @@
 // SOFTWARE.
 
 {% assign font_heading = site.font_heading | default:"'Roboto Slab', Helvetica, Arial, sans-serif" %}
-{% assign font =         site.font         | default:"'Noto Sans', Helvetica, Arial, sans-serif" %}
+{% assign font =         site.font         | default:"'Noto Sans KR', Helvetica, Arial, sans-serif" %}
 
 $font-family-heading: {{ font_heading }};
 $font-family: {{ font }};

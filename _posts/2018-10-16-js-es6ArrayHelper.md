@@ -44,7 +44,7 @@ console.log(person_names);
 
 ## filter
 
-**filter** 메서드는 배열에서 내가 원하는 조건을 충족한 배월 원소들로만 추려 배열을 만들 수 있습니다.
+**filter** 메서드는 배열에서 내가 원하는 조건을 충족한 배열 원소들로만 추려 배열을 만들 수 있습니다.
 
 ```javascript
 const fruits = [
