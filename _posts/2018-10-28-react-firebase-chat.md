@@ -4,7 +4,7 @@ comments: true
 title: '[REACT] React와 Firebase로 간단한 채팅앱 만들기 '
 categories: [react]
 tags: [react]
-date: 2018-10-29
+date: 2018-10-28
 ---
 
 ![headerimg](/assets/img/subcate/react.gif)
