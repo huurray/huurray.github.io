@@ -208,10 +208,10 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: googled56f2ecd3ff64118
+google_site_verification: google22f803ddb1ce1f56
 
 # 네이버 이지만 이렇게 올리는게 편함.
-google_site_verification: naver5fd878bd696208f61eca3090c32bdcbf
+google_site_verification: naver7693b2320fc2a159b22a884587a4f30a
 
 # -- or --
 # webmaster_verifications:
