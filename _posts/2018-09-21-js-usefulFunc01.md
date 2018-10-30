@@ -7,7 +7,7 @@ tags: [javascript]
 date: 2018-09-21
 ---
 ![headerimg](/assets/img/subcate/javascript.gif)
-`javaScript`를 사용하며 만들어본 유요한 함수들을 정리합니다.
+`javaScript`를 사용하며 만들어본 유용한 함수들을 정리합니다.
 {:.center}
 
 ## Snippet

@@ -23,6 +23,13 @@
 <meta name="application-name" content="{{ site.title }}">
 <meta name="msapplication-config" content="{{ '/assets/ieconfig.xml' | relative_url }}">
 
+<meta name="robots" content="index,follow">
+<meta name="description" content="Huurray 개발 블로그">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Huurray devlog">
+<meta property="og:description" content="Huurray 개발 블로그">
+<meta property="og:url" content="https://huurray.github.io">
+
 {% unless site.hydejack.no_theme_color %}
 <meta name="theme-color" content="{{ page.theme_color | default:color | default:'#4fb1ba' }}">
 {% endunless %}
