@@ -225,7 +225,7 @@ HOC 나 Render Props 로 할 수 있는 것들을, Hook 으로도 할 수 있게
 
 ## useContext
 
-useContext는 context의 사용을 아주 깔끔하게 해줍니다. 바로 consumer역할을 하면서 말이죠!<br>
+**useContext**는 context의 사용을 아주 깔끔하게 해줍니다. 바로 **consumer역할**을 하면서 말이죠!<br>
 저번에 작성한 'contextAPI 알아보기'에서 예시로 만들었던 카운터를 만들어 보겠습니다.
 
 ```javascript
@@ -258,7 +258,7 @@ function Example() {
 export default Example;
 ```
 
-context를 만드는 것은 state를 명시하는 방식과 State값을 바꾸는 방식(this.setState)말고는 변한게 없습니다. <br>
+context를 만드는 것은 **state를 명시하는 방식**과 **State값을 바꾸는 방식(this.setState)**말고는 변한게 없습니다. <br>
 child 컴포넌트로 넣어준 Counter를 만들어보겠습니다.
 
 ```javascript
@@ -281,8 +281,8 @@ function Counter() {
 export default Counter;
 ```
 
-context를 사용할때는 useContext를 써서 불러오는 방식으로 사용합니다.<br>
-위에서 value값으로 내보냈던 것들을 ExampleCtx객체에 담아 사용했습니다.
+context를 사용할때는 **useContext**를 써서 불러오는 방식으로 사용합니다.<br>
+위에서 **value값**으로 내보냈던 것들을 ExampleCtx객체에 담아 사용했습니다.
 
 
 ## 참고
