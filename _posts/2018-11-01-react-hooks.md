@@ -19,7 +19,11 @@ date: 2018-11-01
 
 ## Try to Use
 
-예제 프로젝트를 하나 만들어서 사용해보겠습니다.
+예제 프로젝트를 하나 만들어서 다음 기능들을 사용해보죠!
+
+1. useState
+2. useEffect
+3. useContext
 
 > create-react-app react-hooks <br>
 > cd react-hooks <br>
@@ -219,7 +223,70 @@ export default App;
 HOC 나 Render Props 로 할 수 있는 것들을, Hook 으로도 할 수 있게 되었습니다. <br><br>
 **React Hooks**가 정식으로 릴리즈 되면 엄청난 격변이 일어날것같은데요!! 기대가 됩니다!!
 
+## useContext
+
+useContext는 context의 사용을 아주 깔끔하게 해줍니다. 바로 consumer역할을 하면서 말이죠!<br>
+저번에 작성한 'contextAPI 알아보기'에서 예시로 만들었던 카운터를 만들어 보겠습니다.
+
+```javascript
+//src/context/Example.js
+import React, { useState, createContext } from 'react';
+import Counter from '../components/Counter';
+
+export const Context = createContext();
+
+function Example() {
+  const [number, setNumber] = useState(0);
+
+  const actions = {
+    plusOne: () => {
+      setNumber(number + 1)
+    }
+  }
+
+  const value = { number, actions };
+  console.log(value)
+  return (
+    <div>
+      <Context.Provider value={value}>
+        <Counter />
+      </Context.Provider>
+    </div>
+  );
+}
+
+export default Example;
+```
+
+context를 만드는 것은 state를 명시하는 방식과 State값을 바꾸는 방식(this.setState)말고는 변한게 없습니다. <br>
+child 컴포넌트로 넣어준 Counter를 만들어보겠습니다.
+
+```javascript
+//src/components/Counter.js
+import React, { useContext } from 'react';
+import { Context } from '../contexts/Example';
+
+function Counter() {
+  const ExampleCtx = useContext(Context);
+    
+  return (
+    <div>
+      <div>Counter is {ExampleCtx.number}</div>
+      <button onClick={ExampleCtx.actions.plusOne}>+1</button>
+
+    </div>
+  );
+}
+
+export default Counter;
+```
+
+context를 사용할때는 useContext를 써서 불러오는 방식으로 사용합니다.<br>
+위에서 value값으로 내보냈던 것들을 ExampleCtx객체에 담아 사용했습니다.
+
+
 ## 참고
 
 [react hooks 공식문서](https://reactjs.org/docs/hooks-intro.html)<br>
+
 [velopert님 react hooks알아보기](https://velog.io/@velopert/react-hooks)
