@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://huurray.github.io
+Sitemap: http://huurray.github.io/sitemap.xml
