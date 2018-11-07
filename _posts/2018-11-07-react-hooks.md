@@ -4,7 +4,7 @@ comments: true
 title: '[REACT] React Hooks 업데이트!'
 categories: [react]
 tags: [react]
-date: 2018-11-01
+date: 2018-11-07
 ---
 
 ![headerimg](/assets/img/subcate/react.gif)
