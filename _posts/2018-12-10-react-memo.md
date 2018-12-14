@@ -4,7 +4,7 @@ comments: true
 title: '[REACT] React.memo와 React.lazy'
 categories: [react]
 tags: [react]
-date: 2018-11-16
+date: 2018-12-10
 ---
 
 ![headerimg](/assets/img/subcate/react.gif)
