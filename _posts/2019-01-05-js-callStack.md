@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: '[JS] Javascript는 도대체 어떻게 실행될까?'
+title: '[JS] Javascript는 도대체 어떻게 동작할까?'
 categories: [js]
 tags: [javascript]
 date: 2019-01-05
