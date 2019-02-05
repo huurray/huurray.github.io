@@ -6,12 +6,12 @@ categories: [js]
 tags: [javascript]
 date: 2018-09-21
 ---
+
 ![headerimg](/assets/img/subcate/javascript.gif)
 `javaScript`를 사용하며 만들어본 유용한 함수들을 정리합니다.
 {:.center}
 
 ## Snippet
-
 
 <br>
 **1. Textarea 줄바꿈 제한 및 자동수정**
@@ -27,7 +27,7 @@ date: 2018-09-21
     });
 }
 
-~~~
+```
 Jquery를 사용하였고 maxRows만 지정해 사용한다.
 
 <br>
@@ -65,9 +65,9 @@ Jquery를 사용하였고 maxRows만 지정해 사용한다.
     };
 
     console.log(sliceArray(arr, 2));
-~~~
-each수에 따라 배열을 쪼개고 나머지는 마지막 인덱스로 삽입한다.
+```
 
+each수에 따라 배열을 쪼개고 나머지는 마지막 인덱스로 삽입한다.
 
 <br>
 **3. 글 생략해서 보여주기**
@@ -86,4 +86,20 @@ function ellipsis(text: string, maxLength: number) {
 ~~~
 2줄이상 또는 text가 maxLength를 넘으면 ...으로 표현한다.
 
+<br>
+**4. 숫자 한화단위로 표현하기**
+~~~javascript
+  function RoundDownForWon(trimFigures, number, unit) {
+    const roundedDown = Math.floor(number / Math.pow(10, trimFigures))
+    const addComma = num =>
+      Number(num)
+        .toLocaleString('en')
+        .split('.')[0]
+    return addComma(roundedDown) + unit
+  }
 
+console.log(RoundDownForWon(4, 12000000, '만'))
+
+```
+절삭하고 싶은 자리수와 단위를 인자로 리턴값이 표현된다.
+```
