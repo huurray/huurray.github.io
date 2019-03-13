@@ -14,13 +14,13 @@ date: 2019-03-13
 ## 들어가기
 
 **JavaScript**의 데이터에는 **5가지 타입**의 value(_Boolean, null, undefined, String, 그리고 Number_)와
-**3가지 타입**의 reference(_Array, Function, 그리고 Object_)가 존재합니다!
+**3가지 타입**의 reference(_Array, Function, 그리고 Object_)가 존재합니다.
 
 두가지 데이터 개념은 처리과정에서 확실하게 구분되는데요. 어떤 차이점이 있는지 알아보도록 합니다.
 
 ## Value Type VS Reference Type
 
-먼저 **Value** 값들을 변수로 정의헤 보겠습니다.
+먼저 **Value** 값들을 변수로 초기화 해보겠습니다.
 
 ```javascript
 var x = 10
@@ -44,7 +44,7 @@ console.log(y)
 50이 될까요? **아닙니다!!** y는 여전히 10인데요.
 이것이 reference타입과의 가장 큰 차이점입니다.
 
-바로 이 value타입의 데이터들은 처리과정에서 반드시 **COPY**, 즉 복사되서 가져가지기 떄문에 원데이터에 영향이 없는것입니다!
+바로 이 value타입의 데이터들은 처리과정에서 반드시 **COPY**, 즉 복사되서 가져가지기 떄문에 원데이터에 영향이 없는 것입니다!
 
 ```javascript
 var array = ['apple', 'banana']
@@ -57,7 +57,7 @@ console.log(array)
 ```
 
 같은 방식으로 **reference타입** 데이터인 **Array**의 처리 결과를 볼까요?
-원데이터가 변한 것을 볼수 있습니다. 말그대로 **참조**(reference)하기 때문입니다!
+원데이터가 변한 것을 볼수 있습니다. 말그대로 **참조**(reference)하기 때문입니다.
 
 ## == and ===
 
@@ -77,9 +77,9 @@ var arr2 = ['Hi!'];
 console.log(arr1 === arr2); // -> false
 ```
 
-이런경우들 떄문이죠! 값이 같아보이지만 참조가 아닌 다른 배열이라면 **다르다**는것을 알 수 있습니다! 객채도 마찬가지겠죠?
+이런경우들 떄문이죠! 값이 같아보이지만 참조가 아닌 다른 배열이라면 **다르다**는것을 알 수 있습니다. 객채도 마찬가지겠죠?
 
 ## 참고
 
-[Explaining Value vs. Reference in Javascript](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)
+[Explaining Value vs. Reference in Javascript](https://codeburst.io/explaining-value-vs-reference-in-javascript-647a975e12a0)<br>
 [Primitive Types & Reference Types in JavaScript](https://gist.github.com/branneman/7fb06d8a74d7e6d4cbcf75c50fec599c)
