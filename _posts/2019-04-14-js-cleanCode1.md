@@ -4,7 +4,7 @@ comments: true
 title: '[JS] 좋은 개발자의 코드작성법(Clean Code) - (변수, 함수)'
 categories: [js]
 tags: [javascript]
-date: 2019-04-21
+date: 2019-04-14
 ---
 
 ![headerimg](/assets/img/subcate/javascript.gif)
