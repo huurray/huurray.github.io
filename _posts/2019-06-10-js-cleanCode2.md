@@ -4,7 +4,7 @@ comments: true
 title: '[JS] 좋은 개발자의 코드작성법(Clean Code) - (동시성 및 기타)'
 categories: [js]
 tags: [javascript]
-date: 2019-04-28
+date: 2019-06-10
 ---
 
 ![headerimg](/assets/img/subcate/javascript.gif)
