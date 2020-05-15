@@ -14,7 +14,7 @@ order: 1
 
 **HTML**, **CSS**, **Javascript**, **React**, 
 **Typescript**, **React-Native**, **Firebase**,  
-*Node.js*, *GraphQL*, *React-Apollo*, 
+*Next.js*, *Node.js*, *GraphQL*, *React-Apollo*
 
 ## Project
 
