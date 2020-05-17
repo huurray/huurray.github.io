@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: '[JS] Javascript는 도대체 어떻게 동작할까?'
+title: "[JS] Javascript는 도대체 어떻게 동작할까?"
 categories: [js]
 tags: [javascript]
 date: 2019-01-05
@@ -75,13 +75,13 @@ foo();
 다음 코드를 보겠습니다.
 
 ```javascript
-console.log('Hi');
+console.log("Hi");
 
-setTimeout(function() {
-  console.log('there');
+setTimeout(function () {
+  console.log("there");
 }, 5000);
 
-console.log('JSconf');
+console.log("JSconf");
 ```
 
 이 코드는 먼저 'Hi'라는 콘솔이 찍히고, setTimeout이 실행되고 'JSconf'라는 콘솔이 찍히고 5초뒤에 'there'이라는 콘솔이 찍힐 겁니다.
@@ -113,13 +113,13 @@ setTimeout이 실행되면 브라우저로 넘어가 타이머를 실행시키�
 마지막으로 이 코드를 봅시다.
 
 ```javascript
-console.log('start');
+console.log("start");
 
-setTimeout(function() {
-  console.log('inside');
+setTimeout(function () {
+  console.log("inside");
 }, 0);
 
-console.log('end');
+console.log("end");
 ```
 
 이 코드의 결과물이 'start', 'end', 'inside' 순으로 되는 것 역시 setTimeout이 브라우저단으로 넘어갔다가 Task Queue에서 다시 자바스크립트 엔진으로 돌아오기 떄문이겠죠??
@@ -136,7 +136,7 @@ Non-Blocking은 Blocking방식과 비교하며 이해하는게 가장 빠를겁�
 
 ![image](/assets/img/post/js-callStack/5.png)
 
-위 사진은 비동기 함수(getUserSync)와 동기 함수(getUser)가 실행되는 프로세스를 도식화 한 것인데요.
+위 사진은 동기 함수(getUserSync)와 비동기 함수(getUser)가 실행되는 프로세스를 도식화 한 것인데요.
 
 **Blocking방식**은 한 함수가 프로세스가 시스템을 호출 하고나서 결과가 반환되기까지 다음 처리로 넘어가지 않고,
 반대로 **Non-Blocking 방식**은 마치 멀티 쓰레드를 가진것처럼 시스템을 호출한 직후에 프로그램으로 제어가 다시 돌아와서 시스템 호출의 종료를 기다리지 않고 다음 처리로 넘어갈 수 있습니다.
