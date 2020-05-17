@@ -46,7 +46,7 @@ printSquare(4);
 
 printSquare 함수가 실행되고 순차적으로 square, multiply 함수가 실행되고 마지막으로 콘솔이 찍히게 됩니다.
 
-처리과정은 다음과 같습니다. gif짤로 만들어봤습니다.
+처리과정은 다음과 같습니다.
 
 ![image](/assets/img/post/js-callStack/2.gif)
 
@@ -97,7 +97,7 @@ console.log("JSconf");
 
 Node.js 또한 이와같은 방법으로 실행되죠!
 
-따라서 위의 코드는 실제로 이와같은 방식으로 진행됩니다.(gif짤입니다.)
+따라서 위의 코드는 실제로 이와같은 방식으로 진행됩니다.
 
 ![image](/assets/img/post/js-callStack/4.gif)
 
