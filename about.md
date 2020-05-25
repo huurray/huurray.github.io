@@ -18,18 +18,20 @@ _Next.js_, _Node.js_, _GraphQL_, _React-Apollo_
 
 ## Project(개인 프로젝트)
 
-# WEB
+### WEB
 
-- [**로이코드 WEB APP(2018)**](https://loycord.com) : 개발 팀 소개 페이지(Full-Stack)
-- [**혼행 WEB APP(2020)**](https://honhang.app) : 동행 찾기 커뮤니티 웹 앱 (Front-End)
+- [**TOWB**](https://www.towbmusic.com) : 북미 음악 스트리밍 플랫폼(Publishing)
+- [**로이코드(2018)**](https://loycord.com) : 개발 팀 소개 페이지(Full-Stack)
+- [**하비풀(2019)**](https://hobbyful.co.kr) : 취미 공유 플랫폼(Publishing)
+- [**혼행(2020)**](https://honhang.app) : 동행 찾기 커뮤니티 웹 앱 (Front-End)
 
-# MOBILE
+### MOBILE
 
-- [**밥정너 ANDROID/IOS APP(2017)**](https://play.google.com/store/apps/details?id=com.bapjeongneo&hl=en_GB) : 랜덤 선택 기반 음식점 쿠폰 어플 (Publishing)
-- [**혼행 ANDROID APP(2020)**](https://play.google.com/store/apps/details?id=com.midnightplan.honhang) : 동행 찾기 커뮤니티 모바일 앱 (Front-End)
-- [**혼행 IOS APP(2020)**](https://apps.apple.com/kr/app/id1436429081) : 동행 찾기 커뮤니티 모바일 앱 (Front-End)
-- [**소곤소곤 ANDROID APP(2020)**](https://play.google.com/store/apps/details?id=com.midnightplan.murmur&hl=ko) : 녹음 다이어리 모바일 앱 (Full-Stack)
-- [**소곤소곤 IOS APP(2020)**](https://apps.apple.com/kr/app/id1510564828) : 녹음 다이어리 모바일 앱 (Full-Stack)
+- [**밥정너 Android/iOS APP(2017)**](https://play.google.com/store/apps/details?id=com.bapjeongneo&hl=en_GB) : 랜덤 선택 기반 음식점 쿠폰 어플 (Publishing)
+- [**혼행(Android, 2020)**](https://play.google.com/store/apps/details?id=com.midnightplan.honhang) : 동행 찾기 커뮤니티 모바일 앱 (Front-End)
+- [**혼행(iOS, 2020)**](https://apps.apple.com/kr/app/id1436429081) : 동행 찾기 커뮤니티 모바일 앱 (Front-End)
+- [**소곤소곤(Android, 2020)**](https://play.google.com/store/apps/details?id=com.midnightplan.murmur&hl=ko) : 녹음 다이어리 모바일 앱 (Full-Stack)
+- [**소곤소곤(iOS, 2020)**](https://apps.apple.com/kr/app/id1510564828) : 녹음 다이어리 모바일 앱 (Full-Stack)
 
 ## Road Map
 
