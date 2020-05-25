@@ -16,12 +16,13 @@ order: 1
 **Typescript**, **React-Native**, **Firebase**,  
 _Next.js_, _Node.js_, _GraphQL_, _React-Apollo_
 
-## Project(개인 프로젝트)
+## Project
 
 ### WEB
 
-- [**TOWB**](https://www.towbmusic.com) : 북미 음악 스트리밍 플랫폼(Publishing)
+- [**TOWB MUSIC(2018)**](https://www.towbmusic.com) : 북미 음악 스트리밍 플랫폼(Publishing)
 - [**로이코드(2018)**](https://loycord.com) : 개발 팀 소개 페이지(Full-Stack)
+- [**인테리어젠틀맨(2019)**](https://interiorgentleman.com) : 인테리어 견적 사이트(Publishing)
 - [**하비풀(2019)**](https://hobbyful.co.kr) : 취미 공유 플랫폼(Publishing)
 - [**혼행(2020)**](https://honhang.app) : 동행 찾기 커뮤니티 웹 앱 (Front-End)
 
