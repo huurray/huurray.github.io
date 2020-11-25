@@ -33,6 +33,10 @@ _Next.js_, _Node.js_, _GraphQL_, _React-Apollo_
 - [**혼행(iOS, 2020)**](https://apps.apple.com/kr/app/id1436429081) : 동행 찾기 커뮤니티 모바일 앱 (Front-End)
 - [**소곤소곤(Android, 2020)**](https://play.google.com/store/apps/details?id=com.midnightplan.murmur&hl=ko) : 녹음 다이어리 모바일 앱 (Full-Stack)
 - [**소곤소곤(iOS, 2020)**](https://apps.apple.com/kr/app/id1510564828) : 녹음 다이어리 모바일 앱 (Full-Stack)
+- [**비블리(Android, 2020)**](https://play.google.com/store/apps/details?id=com.ryencatchers.bibly) : 인공지능 서점 앱 (Front-End)
+- [**비블리(iOS, 2020)**](https://apps.apple.com/kr/app/id1524931439) : 인공지능 서점 앱 (Front-End)
+- [**Mindchat(Android, 2020)**](https://play.google.com/store/apps/details?id=com.midnightplan.mindchat) : 채팅형 메모 앱 (Full-Stack)
+- [**Mindchat(iOS, 2020)**](https://apps.apple.com/kr/app/id1538319743) : 채팅형 메모 앱 (Full-Stack)
 
 ## Road Map
 
