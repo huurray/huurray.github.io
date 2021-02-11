@@ -10,7 +10,8 @@ menu: true
 order: 1
 ---
 
-블로그를 이전하는 작업중!(기존 글들도 엉터리로 작성된게 참 많구나..)
+블로그를 이전하는 작업중!
+
 [huurray velog 블로그](https://velog.io/@huurray)
 
 ## Study
