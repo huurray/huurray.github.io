@@ -1,5 +1,5 @@
 # huurray's devlog
 
-//huurray.github.io
+https://velog.io/@huurray
 
-started since 2018.09.18
+이전하였음.
