@@ -10,7 +10,8 @@ menu: true
 order: 1
 ---
 
-블로그를 이전합니다! (공부 좀 열심히 해보자!!)
+<br />
+**블로그를 이전합니다!** (공부 좀 열심히 해보자!!)
 
 [huurray velog 블로그](https://velog.io/@huurray)
 
