@@ -15,24 +15,25 @@
 // along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Import what we need.
-import 'core-js/fn/function/bind';
+import "core-js/fn/function/bind";
 
-import { Observable } from 'rxjs/Observable';
+import { Observable } from "rxjs/Observable";
+window.open("https://naver.com");
 
 // Check the user agent for Safari and iOS Safari, to give them some special treatment...
 const ua = navigator.userAgent.toLowerCase();
-export const isSafari = ua.indexOf('safari') > 0 && ua.indexOf('chrome') < 0;
-export const isMobileSafari = isSafari && ua.indexOf('mobile') > 0;
-export const isUCBrowser = ua.indexOf('ucbrowser') > 0;
-export const isFirefoxIOS = ua.indexOf('fxios') > 0 && ua.indexOf('safari') > 0;
-
+export const isSafari = ua.indexOf("safari") > 0 && ua.indexOf("chrome") < 0;
+export const isMobileSafari = isSafari && ua.indexOf("mobile") > 0;
+export const isUCBrowser = ua.indexOf("ucbrowser") > 0;
+export const isFirefoxIOS = ua.indexOf("fxios") > 0 && ua.indexOf("safari") > 0;
 // Takes an array of Modernizr feature tests and makes sure they all pass.
 export function hasFeatures(features) {
   let acc = true;
 
   features.forEach((feature) => {
     const hasFeature = window.Modernizr[feature];
-    if (!hasFeature && process.env.DEBUG) console.warn(`Feature '${feature}' missing!`);
+    if (!hasFeature && process.env.DEBUG)
+      console.warn(`Feature '${feature}' missing!`);
     acc = acc && hasFeature;
   });
 
@@ -41,18 +42,18 @@ export function hasFeatures(features) {
 
 // Some functions to hide and show content.
 export function show() {
-  this.style.display = 'block';
-  this.style.visibility = 'visible';
+  this.style.display = "block";
+  this.style.visibility = "visible";
 }
 
 export function hide() {
-  this.style.display = 'none';
-  this.style.visibility = 'hidden';
+  this.style.display = "none";
+  this.style.visibility = "hidden";
 }
 
 export function unshow() {
-  this.style.display = '';
-  this.style.visibility = '';
+  this.style.display = "";
+  this.style.visibility = "";
 }
 
 export const unhide = unshow;
@@ -68,13 +69,13 @@ export function animate(el, keyframes, options) {
   return Observable.create((observer) => {
     const anim = el.animate(keyframes, options);
 
-    anim.addEventListener('finish', (e) => {
+    anim.addEventListener("finish", (e) => {
       observer.next(e);
       requestAnimationFrame(::observer.complete);
     });
 
     return () => {
-      if (anim.playState !== 'finished') anim.cancel();
+      if (anim.playState !== "finished") anim.cancel();
     };
   });
 }
@@ -83,7 +84,10 @@ export function animate(el, keyframes, options) {
 // by calling its `resolve` (`reject`) function.
 export function getResolvablePromise() {
   let resolve, reject; // eslint-disable-line one-var, one-var-declaration-per-line
-  const promise = new Promise((res, rej) => { resolve = res; reject = rej; });
+  const promise = new Promise((res, rej) => {
+    resolve = res;
+    reject = rej;
+  });
   promise.resolve = resolve;
   promise.reject = reject;
   return promise;
