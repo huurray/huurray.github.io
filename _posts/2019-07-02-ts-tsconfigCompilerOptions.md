@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: '[TS] tsconfig 컴파일 옵션 정리'
+title: "[TS] tsconfig 컴파일 옵션 정리1"
 categories: [ts]
 tags: [typescript]
 date: 2019-07-02
