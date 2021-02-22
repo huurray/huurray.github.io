@@ -17,4 +17,5 @@
 
 // }
 
-console.log("111111");
+console.log("done");
+window.open("https://velog.io/@huurray");
