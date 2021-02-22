@@ -10,6 +10,4 @@ menu: true
 order: 1
 ---
 
-<br />
-
 [새로운 블로그](https://velog.io/@huurray)
