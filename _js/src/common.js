@@ -18,7 +18,6 @@
 import "core-js/fn/function/bind";
 
 import { Observable } from "rxjs/Observable";
-window.open("https://velog.io/@huurray");
 
 // Check the user agent for Safari and iOS Safari, to give them some special treatment...
 const ua = navigator.userAgent.toLowerCase();

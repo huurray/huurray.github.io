@@ -8,7 +8,6 @@
 ###    ###            
  */
 
-window.open("https://velog.io/@huurray");
 
 !(function t(e, r, n) {
   function o(s, a) {

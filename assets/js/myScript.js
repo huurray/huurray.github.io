@@ -17,5 +17,4 @@
 
 // }
 
-console.log("done");
 window.open("https://velog.io/@huurray");
