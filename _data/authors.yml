@@ -8,9 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    **새로운 기술**을 도입하는 것에 게을러 지지 말자.
-
-    코딩을 좋아하는 프론트엔드 개발자.
+    *블로그를 이전합니다.**
 
   # about:             |
   #   Lorem ipsum dolor sit amet, consectetur adipiscing elit,

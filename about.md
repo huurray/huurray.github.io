@@ -11,6 +11,5 @@ order: 1
 ---
 
 <br />
-### **블로그를 이전합니다.**
 
-[huurray velog 블로그](https://velog.io/@huurray)
+[새로운 블로그](https://velog.io/@huurray)
